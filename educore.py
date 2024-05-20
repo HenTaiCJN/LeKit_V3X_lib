@@ -140,8 +140,6 @@ class speaker:
 class parrot:
     M1 = 1
     M2 = 2
-    M3 = 3
-    M4 = 4
 
     def __init__(self, ch=None, in0=None, in1=None):
         from _educore.parrot import parrot as pr

@@ -22,7 +22,7 @@ class light:
         try:
             self.s_adc = ADC(s_pin)
         except:
-            print('开启wifi的情况下，非板载光敏传感器请使用0号口或1号口')
+            print('读取错误，请尝试使用0号口或1号口')
             return
         self.s_adc.width(ADC.WIDTH_12BIT)
         self.s_adc.atten(ADC.ATTN_11DB)
